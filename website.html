@@ -12,12 +12,7 @@
 
   </head>
   <body>
-    <script>
-      for (var counter = 0; counter<100; counter=counter+1) {
-        document.write("<h2> counter is now " + counter + " "+ texttoshow "</h2>")
-      }
 
-      </script>
     <h1> The title </h1>
     <h2> The title </h2>
     <h3> The title </h3>
@@ -32,9 +27,18 @@
     <a href="https://google.com"> click me to go to guglll </a>
     <p> Random (very ugly) pic: </p>
     <br>
-    <br>
+    <br>    <script>
+          var texttoshow  = ", ok?"
+
+          for (var counter = 0; counter<100; counter=counter+1) {
+            document.write(" counter is now " + counter + texttoshow +"<br>");
+          }
+
+          </script>
     <br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ashish_Singh_the_heart_of_Facebook_.jpg/800px-Ashish_Singh_the_heart_of_Facebook_.jpg"/>
-  </body>
+
+
+    </body>
 
 </HTML>
