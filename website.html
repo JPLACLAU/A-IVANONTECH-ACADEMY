@@ -24,6 +24,11 @@
     <a href="https://google.com"> click me to go to guglll </a>
 
     <p> Random (very NICE) pic: </p>
+    <button id=button_hide_cat>Hide cat </button>
+    <br>
+    <br>
+
+    <img id="cat" src="https://i.kym-cdn.com/entries/icons/original/000/007/263/photo_cat2.jpg"/>
 
     <script>
 // writing excercise code here random comment in script
@@ -32,12 +37,11 @@
       $("h2").hide();
       $("#heading3").hide();
       $(".item1").hide();
+      $("#button_hide_cat").click(function() {
+        $("#cat").hide();
+      })
 
     </script>
-
-    <br>
-
-    <img src="https://i.kym-cdn.com/entries/icons/original/000/007/263/photo_cat2.jpg"/>
 
     </body>
 
