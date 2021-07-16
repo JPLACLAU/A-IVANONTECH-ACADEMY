@@ -23,7 +23,8 @@
 
     <a href="https://google.com"> click me to go to guglll </a>
     <br>
-    <imput id="thetext" type="text" />
+    <br>
+    <input id="thetext" type="text" />
     <button id="button_showtext">Show text </button>
 
 
@@ -49,8 +50,10 @@
 
       $("#button_showtext").click(function() {
 
-        var textinput= $("thetext").val();
-        console.log("Buttontext clicked"+ textimput);
+        var textinput= $("#thetext").val();
+        console.log("Button clicked "+ textinput);
+        alert("Button clicked "+ textinput);
+
 
       })
 
