@@ -22,6 +22,10 @@
     </ul>
 
     <a href="https://google.com"> click me to go to guglll </a>
+    <br>
+    <imput id="thetext" type="text" />
+    <button id="button_showtext">Show text </button>
+
 
     <p> Random (very NICE) pic: </p>
     <button id=button_hide_cat>Hide cat </button>
@@ -38,7 +42,16 @@
       $("#heading3").hide();
       $(".item1").hide();
       $("#button_hide_cat").click(function() {
+
         $("#cat").hide();
+
+      })
+
+      $("#button_showtext").click(function() {
+
+        var textinput= $("thetext").val();
+        console.log("Buttontext clicked"+ textimput);
+
       })
 
     </script>
