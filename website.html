@@ -54,12 +54,6 @@
       $("#button_show_cat").click(function() {
 
         !$("#cat").show();
-        function thecatspeaks() {
-          document.write("<h2>MIAOOOOOUUUUU</h1>")
-        }
-        setTimeout(thecatspeaks, 1000);
-
-      })
 
       $("#button_showtext").click(function() {
 
@@ -69,6 +63,13 @@
 
 
       })
+
+      var cars = ["bmw","volvo","ford","volkswagen"];
+      console.log(cars);
+
+      $.each(cars,function(index,value){
+        console.log("CAR " + value + "is at index " + index + " in the array");
+      });
 
     </script>
 
