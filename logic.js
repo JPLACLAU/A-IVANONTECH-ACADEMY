@@ -1,5 +1,6 @@
 // writing excercise code here random comment in script
 /* random comment in paragraph */
+$(document).ready(fuction(){
 
 var fruits = ["Apple", "Orange", "Banana", "Pineapple"];
 
@@ -22,3 +23,5 @@ $("#addFruitButton").click(function(){
   redrawList();
   alert(fruitText);
 });
+
+})
