@@ -26,6 +26,22 @@ $(document).ready(function(){
 
    redrawList();
 
+   var promise = new Promise(function(resolve, reject){
+     setTimeout(resolve,2000);
+   });
+
+   promise.then(function(){
+     console.log("Resolve CALLLED!!");
+
+     return new Promise(function(resolve,reject){
+       setTimeout(resolve,2000);
+     });
+   })
+
+   .then(function(){
+     console.log("Reading from database");
+   });
+
 
 
 //End
