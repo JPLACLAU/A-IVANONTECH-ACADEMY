@@ -29,14 +29,20 @@
     function redrawList(){
       var list = $("#fruitList");
 
+      list.html("");
+
       $.each(fruits,function(index,value){
           $("<li/>").text(value).appendTo(list);
       });
+
     }
+
+    redrawList();
 
     $("#addFruitButton").click(function(){
       var fruitText= $("#fruitTextInput").val();
       fruits.push(fruitText);
+      redrawList();
       alert(fruitText);
     });
 
