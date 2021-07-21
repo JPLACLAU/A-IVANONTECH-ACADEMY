@@ -13,24 +13,19 @@
 
     <h1> Welcome to Ivan on tech coding course </h1>
 
-
     <h1>My favorite fruits</h1>
     <ol id="fruitList">
     </ol>
 
-
-
     <script>
-// writing excercise code here random comment in script
-/* random comment in paragraph */
+    // writing excercise code here random comment in script
+    /* random comment in paragraph */
     var fruit = ["Apple", "Orange", "Banana", "Pineapple"];
 
-    var list =$("#fruitList");
+    var list = $("#fruitList");
 
     $.each(fruits,function(index,value){
-
-        $("<li/>").text(value).appendTo(list);
-
+        var listItem = $("<li/>").text(value).appendTo(list);
     });
 
     console.log(fruits);
