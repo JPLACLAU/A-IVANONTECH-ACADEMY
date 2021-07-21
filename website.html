@@ -6,6 +6,7 @@
 <!--   JQUERRY HOSTED html comment
 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="logic.js"></script>
 
   </head>
 
@@ -19,35 +20,6 @@
 
     <input id="fruitTextInput" placeholder="Write fruit" type="text"/>
     <button id="addFruitButton">Add fruit</button>
-
-    <script>
-    // writing excercise code here random comment in script
-    /* random comment in paragraph */
-
-    var fruits = ["Apple", "Orange", "Banana", "Pineapple"];
-
-    function redrawList(){
-      var list = $("#fruitList");
-
-      list.html("");
-
-      $.each(fruits,function(index,value){
-          $("<li/>").text(value).appendTo(list);
-      });
-
-    }
-
-    redrawList();
-
-    $("#addFruitButton").click(function(){
-      var fruitText= $("#fruitTextInput").val();
-      fruits.push(fruitText);
-      redrawList();
-      alert(fruitText);
-    });
-
-
-    </script>
 
     <p> Play with the cat: </p>
 
