@@ -17,15 +17,23 @@
     <ol id="fruitList">
     </ol>
 
+    <input id="fruitTextInput" placeholder="Write fruit" type="text"/>
+    <button id="addFruitButton">Add fruit</button>
+
     <script>
     // writing excercise code here random comment in script
     /* random comment in paragraph */
+    $("#addFruitButton").click(function)(){
+      var fruitText= $("#fruitTextInput").val();
+      alert(fruitText);
+    });
+
     var fruits = ["Apple", "Orange", "Banana", "Pineapple"];
 
     var list = $("#fruitList");
 
     $.each(fruits,function(index,value){
-        var listItem = $("<li/>").text(value).appendTo(list);
+        $("<li/>").text(value).appendTo(list);
     });
 
     console.log(fruits);
