@@ -19,16 +19,28 @@
 
     <img id="cat" src="https://i.kym-cdn.com/entries/icons/original/000/007/263/photo_cat2.jpg"/>
 
+    <h1>My favorite fruits</h1>
+    <ol id="fruitList">
+    </ol>
+
+    <input placeholder="Write fruit" type="text"/>
+    <button> Add fruit </button>
+
     <script>
 // writing excercise code here random comment in script
 /* random comment in paragraph */
+    var fruit = ["Apple", "Orange", "Banana", "Pineapple"];
 
-      var cars = ["bmw","volvo","ford","volkswagen"];
-      console.log(cars);
+    var list =$("#fruitList");
 
-      $.each(cars,function(index,value){
-      console.log("CAR " + value + " is at index " + index + " in the array");
-      });
+    $.each(fruits,function(index,value){
+
+        $("<li/>").text(value).appendTo(list);
+
+    });
+
+    console.log(fruits);
+    
 
     </script>
 
