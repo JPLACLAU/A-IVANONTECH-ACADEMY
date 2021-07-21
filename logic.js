@@ -26,23 +26,29 @@ $(document).ready(function(){
 
    redrawList();
 
-   var promise = new Promise(function(resolve, reject){
-     setTimeout(resolve,2000);
-   });
 
-   promise.then(function(){
-     console.log("Resolve CALLLED!!");
-
+   function constructTimeoutPromise(){
      return new Promise(function(resolve,reject){
        setTimeout(resolve,2000);
      });
-   })
-
-   .then(function(){
+   }
+   constructTimeoutPromise().then(function(){
+     console.log("Connecting do database");
+     return constructTimeoutPromise();
+   }).then(function(){
      console.log("Reading from database");
+     return constructTimeoutPromise();
+   }).then(function(){
+     console.log("Structuring data");
+     return constructTimeoutPromise();
+   }).then(function(){
+     console.log("Init send transaction");
+     return constructTimeoutPromise();
+   }).then(function(){
+     console.log("Sent Data!");
+   }).then(function(){
+     console.log("Be happy");
    });
-
-
 
 //End
 })
