@@ -23,20 +23,22 @@
     <script>
     // writing excercise code here random comment in script
     /* random comment in paragraph */
-    $("#addFruitButton").click(function)(){
-      var fruitText= $("#fruitTextInput").val();
-      alert(fruitText);
-    });
 
     var fruits = ["Apple", "Orange", "Banana", "Pineapple"];
 
-    var list = $("#fruitList");
+    function redrawList(){
+      var list = $("#fruitList");
 
-    $.each(fruits,function(index,value){
-        $("<li/>").text(value).appendTo(list);
+      $.each(fruits,function(index,value){
+          $("<li/>").text(value).appendTo(list);
+      });
+    }
+
+    $("#addFruitButton").click(function(){
+      var fruitText= $("#fruitTextInput").val();
+      fruits.push(fruitText);
+      alert(fruitText);
     });
-
-    console.log(fruits);
 
 
     </script>
