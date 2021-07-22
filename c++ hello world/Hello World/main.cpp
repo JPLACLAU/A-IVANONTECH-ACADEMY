@@ -1,9 +1,8 @@
 #include <iostream>
 
-using namespace std;
 
 int main()
 {
-    cout << "Cats are great" << endl;
+    std::cout<<"Hello everyone";
     return 0;
 }
