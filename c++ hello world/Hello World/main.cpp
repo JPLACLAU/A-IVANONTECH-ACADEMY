@@ -12,7 +12,15 @@ int main()
 
 string name = "";
 cout << "What is your name? "<< endl;
-cin >> name;
+
+getline(cin, name);
+
 cout << "Hello " << name << endl;
+
+int age = 0;
+count << "How old are you=";
+cin >> age;
+cout << "Oh so you are " << age << " years old";
+
     return 0;
 }
