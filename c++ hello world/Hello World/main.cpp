@@ -14,7 +14,7 @@ int main()
     bool e = false;
     //true = 1
     //False = 0
-    bool k = d||e;
-    cout<<"Hello everyone"<< c;
+    bool k = d&&e;
+    cout<<"Hello everyone"<< k;
     return 0;
 }
