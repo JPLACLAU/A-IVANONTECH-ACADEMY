@@ -2,6 +2,10 @@
 
 using namespace std;
 
+void test(){
+cout << "Testing testing";
+}
+
 int main()
 {
 
@@ -18,7 +22,7 @@ getline(cin, name);
 cout << "Hello " << name << endl;
 
 int age = 0;
-count << "How old are you=";
+cout << "How old are you=";
 cin >> age;
 cout << "Oh so you are " << age << " years old";
 
