@@ -2,29 +2,20 @@
 
 using namespace std;
 
-void test(){
-cout << "Testing testing";
+void printHello() {
+  // local variable
+  string helloString = "hello!";
+  cout << helloString;
+}
+
+void test() {
+  int a = 0;
+  cout << "test "<< a;
 }
 
 int main()
 {
-
-/*
-1. get the name
-2. print good mornint + the namespace
-*/
-
-string name = "";
-cout << "What is your name? "<< endl;
-
-getline(cin, name);
-
-cout << "Hello " << name << endl;
-
-int age = 0;
-cout << "How old are you=";
-cin >> age;
-cout << "Oh so you are " << age << " years old";
-
-    return 0;
+  printHello() ;
+  test() ;
+  return 0;
 }
