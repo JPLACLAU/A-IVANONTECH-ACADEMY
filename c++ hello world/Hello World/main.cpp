@@ -10,8 +10,9 @@ int main()
 2. print good mornint + the namespace
 */
 
-string name = "satoshii";
+string name = "";
 cout << "What is your name? "<< endl;
-cout << "Hello world " << name << endl;
+cin >> name;
+cout << "Hello " << name << endl;
     return 0;
 }
