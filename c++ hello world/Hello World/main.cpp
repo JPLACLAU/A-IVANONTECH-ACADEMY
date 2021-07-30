@@ -12,7 +12,7 @@ int main()
   if(number <10){
     cout << "Your number is LESS than 10!" <<endl;
   }
-  else if(number >= 10 && number > 15){
+  else if(number >= 10 && number < 15){
     cout << "The number is greater of equal than 10 and below 15" <<endl;
   }
   else{
