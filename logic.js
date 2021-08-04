@@ -1,3 +1,6 @@
+// All writing here was done for excercise and practicing.
+// The excercises belong to Ivan on Tech Academy and other sources.
+
 // writing excercise code here random comment in script
 /* random comment in paragraph */
 $(document).ready(function(){
