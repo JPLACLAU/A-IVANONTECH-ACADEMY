@@ -1,3 +1,6 @@
+// All writing here was done for excercise and practicing.
+// The excercises belong to Ivan on Tech Academy and other sources.
+
 #include <iostream>
 
 using namespace std;
