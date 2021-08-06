@@ -2,31 +2,12 @@
 // The excercises belong to Ivan on Tech Academy and other sources.
 // www.learncpp.com and CodeBeauty are some of the other sources I used to learncpp
 
-#include <array>
-#include <iostream>
-#include <string_view>
-#include <tuple>
-#include <type_traits>
-
-namespace a::b::c
-{
-    inline constexpr std::string_view str{ "hello" };
-}
-
-template <class... T>
-std::tuple<std::size_t, std::common_type_t<T...>> sum(T... args)
-{
-    return { sizeof...(T), (args + ...) };
-}
+#include <iostream> // for std::cout
 
 int main()
 {
-    auto [iNumbers, iSum]{ sum(1, 2, 3) };
-    std::cout << a::b::c::str << ' ' << iNumbers << ' ' << iSum << '\n';
-
-    std::array arr{ 1, 2, 3 };
-
-    std::cout << std::size(arr) << '\n';
-
+    int x{ 5 };
+    std::cout << "x is equal to: " << x << '\n'; // Using '\n' standalone
+    std::cout << "And that's all, folks!\n"; // Using '\n' embedded into a double-quoted piece of text (note: no single quotes when used this way)
     return 0;
 }
