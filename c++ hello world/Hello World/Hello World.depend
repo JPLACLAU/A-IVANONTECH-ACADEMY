@@ -1,4 +1,8 @@
 # depslib dependency file v1.0
-1627665794 source:z:\a-ivanontech academy\c++ hello world\hello world\main.cpp
+1628202212 source:z:\a-ivanontech academy\c++ hello world\hello world\main.cpp
+	<array>
 	<iostream>
+	<string_view>
+	<tuple>
+	<type_traits>
 
