@@ -2,12 +2,15 @@
 // The excercises belong to Ivan on Tech Academy and other sources.
 // www.learncpp.com and CodeBeauty are some of the other sources I used to learncpp
 
-#include <iostream> // for std::cout
+#include <iostream>  // for std::cout and std::cin
 
 int main()
 {
-    int x{ 5 };
-    std::cout << "x is equal to: " << x << '\n'; // Using '\n' standalone
-    std::cout << "And that's all, folks!\n"; // Using '\n' embedded into a double-quoted piece of text (note: no single quotes when used this way)
+    std::cout << "Enter a number: "; // ask user for a number
+
+    int x{ }; // define variable x to hold user input (and zero-initialize it)
+    std::cin >> x; // get number from keyboard and store it in variable x
+
+    std::cout << "You entered " << x << '\n';
     return 0;
 }
