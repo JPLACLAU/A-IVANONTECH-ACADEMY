@@ -4,13 +4,15 @@
 
 #include <iostream>
 
+// preferred version
 int main()
 {
-    // define an integer variable named x
-    int x; // this variable is uninitialized because we haven't given it a value
+	std::cout << "Enter an integer: ";
 
-    // print the value of x to the screen
-    std::cout << x; // who knows what we'll get, because x is uninitialized
+	int num{ };
+	std::cin >> num;
 
-    return 0;
+	std::cout << "Double that number is: " <<  num * 2 << '\n'; // use an expression to multiply num * 2 at the point where we are going to print it
+
+	return 0;
 }
