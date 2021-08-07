@@ -2,15 +2,15 @@
 // The excercises belong to Ivan on Tech Academy and other sources.
 // www.learncpp.com and CodeBeauty are some of the other sources I used to learncpp
 
-#include <iostream>  // for std::cout and std::cin
+#include <iostream>
 
 int main()
 {
-    std::cout << "Enter a number: "; // ask user for a number
+    // define an integer variable named x
+    int x; // this variable is uninitialized because we haven't given it a value
 
-    int x{ }; // define variable x to hold user input (and zero-initialize it)
-    std::cin >> x; // get number from keyboard and store it in variable x
+    // print the value of x to the screen
+    std::cout << x; // who knows what we'll get, because x is uninitialized
 
-    std::cout << "You entered " << x << '\n';
     return 0;
 }
