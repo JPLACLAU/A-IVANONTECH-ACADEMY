@@ -4,15 +4,10 @@
 
 #include <iostream>
 
-// preferred version
+int add(int x, int y); // needed so main.cpp knows that add() is a function declared elsewhere
+
 int main()
 {
-	std::cout << "Enter an integer: ";
-
-	int num{ };
-	std::cin >> num;
-
-	std::cout << "Double that number is: " <<  num * 2 << '\n'; // use an expression to multiply num * 2 at the point where we are going to print it
-
-	return 0;
+    std::cout << "The sum of 3 and 4 is: " << add(3, 4) << '\n';
+    return 0;
 }
