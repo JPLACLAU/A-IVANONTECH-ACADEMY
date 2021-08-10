@@ -1,6 +1,9 @@
 //@version=3
 
-strategy(title="Moving Average Crossing", overlay=true, initial_capital=2000, commission_type="strategy.commission.percent", commission_value=0.2)
+strategy(title="Moving Average Crossing", overlay=true,
+ initial_capital=2000,
+ commission_type="strategy.commission.percent",
+ commission_value=0.2)
 
 //DATE AND TIME
 fromMonth = input(defval=1, title="From month", minval=1)
@@ -16,7 +19,8 @@ shortMa = sma(close, 20)
 longMa = sma(close, 50)
 
 //LOGIC
-timeInRange = (time > timestamp(fromYear, fromMonth, fromDay, 00, 00)) and (time < timestamp(toYear, toMonth, toDay, 23, 59))
+timeInRange = (time > timestamp(fromYear, fromMonth, fromDay, 00, 00))
+          and (time < timestamp(toYear, toMonth, toDay, 23, 59))
 longSignal =  crossover(shortMa, longMa) and timeInRange
 shortSignal = crossover(longMa, shortMa) and timeInRange
 
