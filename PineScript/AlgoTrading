@@ -2,6 +2,15 @@
 
 strategy(title="Moving Average Crossing", overlay=true)
 
+//DATE AND TIME
+fromMonth = input(defval=1, title="From month", minval=1)
+fromDay = input(defval=1, title="From day", minval=1)
+fromYear = input(defval=2019, title="From year", minval=2016)
+
+toMonth = input(defval=1, title="To month", minval=1)
+toDay = input(defval=1, title="To day", minval=1)
+toYear = input(defval=2025, title="To year", minval=2016)
+
 //DEFINITIONS
 shortMa = sma(close, 20)
 longMa = sma(close, 50)
