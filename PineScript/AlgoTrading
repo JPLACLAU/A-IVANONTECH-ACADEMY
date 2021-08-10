@@ -1,6 +1,9 @@
 //@version=3
 
-strategy(title="Moving Average Crossing", overlay=true)
+strategy(title="Moving Average Crossing", overlay=true,
+ initial_capital=2000,
+ comission_type="strategy.comission.percent",
+ comission_value=0.2)
 
 //DATE AND TIME
 fromMonth = input(defval=1, title="From month", minval=1)
