@@ -2,9 +2,8 @@
 
 strategy(title="Moving Average Crossing", overlay=true,
  initial_capital=2000,
- default_qty_value = 100,
- default_qty_type = strategy.percent_of_equity,
- commission_value = 0.2)
+ commission_type=strategy.commission.percent,
+ commission_value=0.2)
 
 //DATE AND TIME
 fromMonth = input(defval=1, title="From month", minval=1)
@@ -16,7 +15,7 @@ toDay = input(defval=1, title="To day", minval=1)
 toYear = input(defval=2021, title="To year", minval=2014)
 
 //DEFINITIONS
-shortMa = sma(close, 30)
+shortMa = sma(close, 40)
 longMa = sma(close, 50)
 
 //LOGIC
