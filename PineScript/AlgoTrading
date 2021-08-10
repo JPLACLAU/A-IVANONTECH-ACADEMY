@@ -1,0 +1,15 @@
+//@version=3
+
+strategy(title="Moving Average Crossing", overlay=true)
+
+//DEFINITIONS
+shortMa = sma(close, 20)
+longMa = sma(close, 50)
+
+//LOGIC
+longSignal =  crossover(shortMa, longMa)
+shortSignal = crossover(longMa, shortMa)
+
+//POSITIONS
+strategy.entry(id="longPosition", long=true, when=longSignal)
+strategy.entry(id="shortPosition", long=false, when=shortSignal)
