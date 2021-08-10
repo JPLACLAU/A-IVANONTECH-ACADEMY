@@ -25,5 +25,5 @@ longSignal =  crossover(shortMa, longMa) and timeInRange
 shortSignal = crossover(longMa, shortMa) and timeInRange
 
 //POSITIONS
-strategy.entry(id="longPosition", long=true, when=longSignal)
-strategy.entry(id="shortPosition", long=false, when=shortSignal)
+strategy.entry(id="longPosition", long=true, qty=0.1, when=longSignal)
+strategy.entry(id="shortPosition", long=false, qty=0.1, when=shortSignal)
