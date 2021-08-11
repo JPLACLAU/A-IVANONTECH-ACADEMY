@@ -18,6 +18,10 @@ toYear = input(defval=2021, title="To year", minval=2014)
 shortMa = sma(close, 40)
 longMa = sma(close, 50)
 r = rsi(close, 14)
+max_risk = strategy.equity * 0.01;
+stoploss = 100;
+size = max_risk/stoploss;
+
 
 //LOGIC
 timeInRange = (time > timestamp(fromYear, fromMonth, fromDay, 00, 00))
@@ -29,3 +33,5 @@ shortSignal = crossover(longMa, shortMa) and timeInRange and r > 50 and volume >
 //POSITIONS
 strategy.entry(id="longPosition", long=true, qty=0.05, when=longSignal)
 strategy.entry(id="shortPosition", long=false, qty=0.05, when=shortSignal)
+strategy.exit("Exit Long"), from_entry = "longPosition", loss = 100)
+strategy.exit("Exit Short", from_entry = "shortPosition", loss = 100)
