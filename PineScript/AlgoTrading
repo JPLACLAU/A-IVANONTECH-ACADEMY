@@ -22,8 +22,8 @@ r = rsi(close, 14)
 //LOGIC
 timeInRange = (time > timestamp(fromYear, fromMonth, fromDay, 00, 00))
           and (time < timestamp(toYear, toMonth, toDay, 23, 59))
-longSignal =  crossover(shortMa, longMa) and timeInRange and r < 50
-shortSignal = crossover(longMa, shortMa) and timeInRange and r > 50
+longSignal =  crossover(shortMa, longMa) and timeInRange and r < 50 and volume > 300
+shortSignal = crossover(longMa, shortMa) and timeInRange and r > 50 and volume > 300
 
 
 //POSITIONS
