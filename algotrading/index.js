@@ -10,4 +10,5 @@ var key ="gr5HdL21okk2LP2foSQF6ADzrFP";
 
 const restClient = new GeminiAPI({key, secret, sandbox:true});
 
-restClient.newOrder({amount:10,price:100,side:"buy",symbols:"BTC"})
+restClient.newOrder({amount:10,price:100,side:"buy",symbols:"btcusd"});
+.then(response => console.log(response));
