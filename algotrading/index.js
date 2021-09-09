@@ -1,3 +1,4 @@
+global.fetch = require("node-fetch");
 
 
 //Conection to the TESTING gemini platform
@@ -18,3 +19,9 @@ restClient.newOrder({amount:10, price:100, side:"buy", symbol:"btcusd"})
 
 .then(response => console.log(response))
 .catch(error => console.log(error));
+
+
+CryptoCompareAPI.coinList()
+.then(coinList => {
+  console.log(coinList)
+})
