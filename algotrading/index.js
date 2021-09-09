@@ -6,11 +6,11 @@ const GeminiAPI = require("gemini-api").default;
 const secret = "21XxTWfsbd2ufXCZAZC1rVT2X3rq";
 const key = "account-iVHSkreYXowSK9kFCKts";
 //This is a free api from crypto compare
-const CCAPIKey = "7036d42f4098c4553208f2b9bbdefd6880a6e3f0cf88f694ad2287d3dd649d81";
+const CCAPIKey1 = "7036d42f4098c4553208f2b9bbdefd6880a6e3f0cf88f694ad2287d3dd649d81";
 const restClient = new GeminiAPI({key, secret, sandbox:true});
 
 const CryptoCompareAPI = require("cryptocompare");
-CryptoCompareAPI.setApikey(CCAPIKey);
+CryptoCompareAPI.setApikey(CCAPIKey1);
 
 
 
