@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "hello",
 				"outputs": [
@@ -15,7 +26,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"helloworld.sol": "HelloWorld"
+			"ETH-Remix/helloworld.sol": "HelloWorld"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -46,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"helloworld.sol": {
-			"keccak256": "0xabb807d2031bcd8ef809d32feb53a3a5b6d3aeebbcc39b411b86f53813ba5882",
+		"ETH-Remix/helloworld.sol": {
+			"keccak256": "0x4c094f9a5ba63e9e0228540a5605f860121588424beb3aae431703c0e78e4be8",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://bdec595f4f32ed0a183b3f914ea10ef3a8d9551c0fc46b8883c1a93bd3f6a905",
-				"dweb:/ipfs/QmYbPM5yWemVnFMokJrcrFwxyLmVXaS417LGAzTpXAddxQ"
+				"bzz-raw://7761835f624416c1672566bd185a7835a5237e49575bd9f8753731e1763e4b9a",
+				"dweb:/ipfs/QmPc26NX3J8LNrQ199tGTpRdBuZi8zYvhGzZBKKBZ8K3ya"
 			]
 		}
 	},

@@ -74,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"memorytask.sol": "MemoryAndStorage"
+			"ETH-Remix/memorytask.sol": "MemoryAndStorage"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -88,7 +88,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"memorytask.sol": {
+		"ETH-Remix/memorytask.sol": {
 			"keccak256": "0xf0c8b8dbed868c5142a3d4cc981722d3f7e6d864d58756f033f48b5378ae2a83",
 			"license": "UNLICENSED",
 			"urls": [
