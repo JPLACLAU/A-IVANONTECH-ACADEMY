@@ -8,17 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_message",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
 						"name": "_age",
 						"type": "uint256"
@@ -115,19 +104,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hello",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -143,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ETH-Remix/Hunger games/WeightLoss.sol": "WeightLoss"
+			"ETH-Remix/Hunger games/HungerGames.sol": "WeightLoss"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -157,12 +133,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ETH-Remix/Hunger games/WeightLoss.sol": {
-			"keccak256": "0xeff9ec043f395eee34cf9e9e2a65aa206c952915fe4cf4d9e07374e51be787c3",
+		"ETH-Remix/Hunger games/HungerGames.sol": {
+			"keccak256": "0xa86905546c8f01cecb4b4abed26fff33708bb412328a8e5b4a1e1e3245ef1e77",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://97131b9fc002a9cc8d4f86bb9177d13fae1eb4c0af8f392c54993aedae0ba8b9",
-				"dweb:/ipfs/QmQTqWhTNJWEbgF2ppUpWHYXWELRV4oRaa6TmYV4B3ENkC"
+				"bzz-raw://fb010b30685f2b6a88e6e1a828e2fc62a30c7d9b11a560c1b512823eeefbbbef",
+				"dweb:/ipfs/QmRLfcaC8MvKnUzMSqQAhDLdGuXj9Lh4JxgPSiCCCYrcCJ"
 			]
 		}
 	},
