@@ -143,7 +143,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ETH-Remix/helloworld.sol": "HelloWorld"
+			"ETH-Remix/Hunger games/WeightLoss.sol": "WeightLoss"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -157,12 +157,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ETH-Remix/helloworld.sol": {
-			"keccak256": "0x55de768a3e2195963fd9b1220dd7f660607952fa39b38d1d7fbcc00de70a2801",
+		"ETH-Remix/Hunger games/WeightLoss.sol": {
+			"keccak256": "0xeff9ec043f395eee34cf9e9e2a65aa206c952915fe4cf4d9e07374e51be787c3",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://a94fdff2fa23230fd3a2d669c351a7ea6224bb3d3499281e1926d9473ae81867",
-				"dweb:/ipfs/QmPbGKNrpPChSEb82sk7KNBApjgfwYEtdGCkwZpXHp9wsN"
+				"bzz-raw://97131b9fc002a9cc8d4f86bb9177d13fae1eb4c0af8f392c54993aedae0ba8b9",
+				"dweb:/ipfs/QmQTqWhTNJWEbgF2ppUpWHYXWELRV4oRaa6TmYV4B3ENkC"
 			]
 		}
 	},

@@ -121,7 +121,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bank.sol": "Bank"
+			"ETH-Remix/bank.sol": "Bank"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -135,7 +135,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Destroyable.sol": {
+		"ETH-Remix/Destroyable.sol": {
 			"keccak256": "0x8066b73cb03e37d70816d58545018d2ab357d6dff4225df71a76c4832e6113f7",
 			"license": "UNLICENSED",
 			"urls": [
@@ -143,7 +143,7 @@
 				"dweb:/ipfs/QmQm2CgTKsgdqDUiMGG9ZfYP26BHYvJHEy42co6bFSas1d"
 			]
 		},
-		"bank.sol": {
+		"ETH-Remix/bank.sol": {
 			"keccak256": "0x490bb45ab624ced0c138b92a309f52e5949ba1951fd0946ffea151bc3ebe7df4",
 			"license": "UNLICENSED",
 			"urls": [
@@ -151,7 +151,7 @@
 				"dweb:/ipfs/QmdNkoVWH2ZwtYr6qnaHnab7ShMTENSsaWf4X35uABCgGv"
 			]
 		},
-		"ownable.sol": {
+		"ETH-Remix/ownable.sol": {
 			"keccak256": "0x433847e7fa6b5e95c6f853a1e871dee46466ab40ae16aa11d73674271b05cab4",
 			"license": "UNLICENSED",
 			"urls": [

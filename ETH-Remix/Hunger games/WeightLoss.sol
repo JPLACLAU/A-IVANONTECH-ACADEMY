@@ -1,7 +1,7 @@
 pragma solidity 0.7.5;
 //SPDX-License-Identifier: UNLICENSED
 
-contract HelloWorld {
+contract WeightLoss {
     //state variables
     
     struct Person{
