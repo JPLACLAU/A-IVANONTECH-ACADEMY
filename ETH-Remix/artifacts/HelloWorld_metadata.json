@@ -19,6 +19,24 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "int256",
 						"name": "number",
 						"type": "int256"
@@ -52,6 +70,30 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getPerson",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -96,11 +138,11 @@
 	},
 	"sources": {
 		"ETH-Remix/helloworld.sol": {
-			"keccak256": "0xbb0e0d0bc946d6dd8095ba6e5cbdfd37ab95b65113e1aa011806f9e9de200fe5",
+			"keccak256": "0xdcfd2481489d1f2464fa4b67b0dd0e7122bf0af4efc165ad18cd937809d4e4a3",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://aaad6e73249bcffec9e30db0c73e35cf882db2de9954de47b7f795354e2484c1",
-				"dweb:/ipfs/QmaRG6WTsXFAze75qxdrQLSqYK16PH6sCBX67vqv8J5a3D"
+				"bzz-raw://d1c3194088c948ed13ea36302f445972020ee174e37cff39ca620a04382a5e4d",
+				"dweb:/ipfs/QmcRUhma4LQxATSmMAxn4pvQWCWJpcSgTfP8sJvWrGcVNj"
 			]
 		}
 	},
