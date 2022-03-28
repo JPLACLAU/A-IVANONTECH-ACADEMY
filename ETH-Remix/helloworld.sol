@@ -21,7 +21,7 @@ contract HelloWorld {
         }
         return number;
     }
-    function count (int number) public pure returns(int){
+    function count2 (int number) public pure returns(int){
         for(int i=0;i<10;i++){
             number++;
         }
