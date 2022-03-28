@@ -13,4 +13,12 @@ contract HelloWorld {
             return message;
     }
     
+    function count(int number) public pure returns(int){
+        int i= 0;
+        while(i < 10){
+            number++;
+            i++;
+        }
+        return number;
+    }
 }

@@ -17,6 +17,25 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "hello",
 				"outputs": [
@@ -58,11 +77,11 @@
 	},
 	"sources": {
 		"ETH-Remix/helloworld.sol": {
-			"keccak256": "0x4c094f9a5ba63e9e0228540a5605f860121588424beb3aae431703c0e78e4be8",
+			"keccak256": "0x81d05d646b4291fbccd50e2e3a940c8be3ee7e209344cdf3f722e2ce97bf4786",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://7761835f624416c1672566bd185a7835a5237e49575bd9f8753731e1763e4b9a",
-				"dweb:/ipfs/QmPc26NX3J8LNrQ199tGTpRdBuZi8zYvhGzZBKKBZ8K3ya"
+				"bzz-raw://3933c440bb1c747891596d59784197a46508a3fe9152dcd660ddc64d9307c285",
+				"dweb:/ipfs/QmZBrJUvCZDNiUm3VgeN45mXMtKEEDQ2z1Tu51zwE1X7VR"
 			]
 		}
 	},
