@@ -28,6 +28,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
 						"name": "_age",
 						"type": "uint256"
 					},
@@ -105,6 +110,11 @@
 						"type": "uint256"
 					},
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
@@ -122,6 +132,50 @@
 					{
 						"internalType": "uint256",
 						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_weight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_month",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_investedmoney",
 						"type": "uint256"
 					}
 				],
@@ -170,11 +224,11 @@
 	},
 	"sources": {
 		"ETH-Remix/HungerGames/HungerGames.sol": {
-			"keccak256": "0x318c8b95666a5a25e9e5fe0e11054a54904f0c326827cd3c10bcc2731d8cdb04",
+			"keccak256": "0x0bc7971611df352b89a042bab710fba9e831d34bb7e90b8d154aaef3b5e18bc0",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://36dd40d4447d325f2f07858a427db4582fade951ea87bd2fbd116a5deec10bbb",
-				"dweb:/ipfs/QmXWLup8DgiVnaNN1xNk149QdtrugfQprcGFabYvcLTFLS"
+				"bzz-raw://cf5657fe2ec1f45609c7dddfe7c1b72ef50c41df69606d3d2e81b62ab2fa3865",
+				"dweb:/ipfs/QmSkZRy4JKQxqgDYP79vbhLK1ZsHY2Tn6BgTGZFEHU4iuA"
 			]
 		}
 	},
