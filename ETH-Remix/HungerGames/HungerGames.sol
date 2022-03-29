@@ -15,9 +15,12 @@ contract HungerGames {
 
     Person[] people;
 
+    uint256 public peopleCount;
+
     function addPerson(uint _age, string memory _name, uint _weight, uint _month, uint _investedmoney) public {
         Person memory newPerson = Person(_age, _name, _weight, _month, _investedmoney);
         people.push(newPerson);
+        peopleCount += 1;
     }
 
     function getPerson(uint _index) public view returns (uint, string memory, uint, uint, uint) {

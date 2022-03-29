@@ -127,6 +127,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "peopleCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -157,11 +170,11 @@
 	},
 	"sources": {
 		"ETH-Remix/HungerGames/HungerGames.sol": {
-			"keccak256": "0x94b10b850f1d7f5a3317d6ebd2d9733b190bedc18ab0d04c1219db0d322b9c70",
+			"keccak256": "0x318c8b95666a5a25e9e5fe0e11054a54904f0c326827cd3c10bcc2731d8cdb04",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://13d9d05d4124dcac2d12db76a5525215e185db3243d54f3ff2ef1d9392c609be",
-				"dweb:/ipfs/QmZDwKdCrjFpSea5eyMHS4m3nXVKmuHjz9hH6ViSXx4WkS"
+				"bzz-raw://36dd40d4447d325f2f07858a427db4582fade951ea87bd2fbd116a5deec10bbb",
+				"dweb:/ipfs/QmXWLup8DgiVnaNN1xNk149QdtrugfQprcGFabYvcLTFLS"
 			]
 		}
 	},
