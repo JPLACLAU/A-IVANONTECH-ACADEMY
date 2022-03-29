@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ETH-Remix/Practice/Destroyable.sol": "Destroyable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ETH-Remix/Practice/Destroyable.sol": {
+			"keccak256": "0x8066b73cb03e37d70816d58545018d2ab357d6dff4225df71a76c4832e6113f7",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://47b99601a4e3648c40091ba6a680f0668c5dfd3d821e8bb68cb2976d3e52c297",
+				"dweb:/ipfs/QmQm2CgTKsgdqDUiMGG9ZfYP26BHYvJHEy42co6bFSas1d"
+			]
+		},
+		"ETH-Remix/Practice/ownable.sol": {
+			"keccak256": "0x433847e7fa6b5e95c6f853a1e871dee46466ab40ae16aa11d73674271b05cab4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fb1beef68a98800f80d9af9b74d4e48ebffc4f25e0b78f723614c3e215e88ef3",
+				"dweb:/ipfs/QmQNAKRJ9YdnZGbdXpbHLYYDnXESz1TR9Nv1C1QTVjoGHc"
+			]
+		}
+	},
+	"version": 1
+}

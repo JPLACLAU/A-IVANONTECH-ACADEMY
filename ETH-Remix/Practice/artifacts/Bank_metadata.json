@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "depositedTo",
+						"type": "address"
+					}
+				],
+				"name": "depositDone",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ETH-Remix/Practice/bank.sol": "Bank"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ETH-Remix/Practice/Destroyable.sol": {
+			"keccak256": "0x8066b73cb03e37d70816d58545018d2ab357d6dff4225df71a76c4832e6113f7",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://47b99601a4e3648c40091ba6a680f0668c5dfd3d821e8bb68cb2976d3e52c297",
+				"dweb:/ipfs/QmQm2CgTKsgdqDUiMGG9ZfYP26BHYvJHEy42co6bFSas1d"
+			]
+		},
+		"ETH-Remix/Practice/bank.sol": {
+			"keccak256": "0x490bb45ab624ced0c138b92a309f52e5949ba1951fd0946ffea151bc3ebe7df4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b5eaa310b32dde3ea0e77b4869f553d48bbea9e4941fc89d8c850cb39cf98c33",
+				"dweb:/ipfs/QmdNkoVWH2ZwtYr6qnaHnab7ShMTENSsaWf4X35uABCgGv"
+			]
+		},
+		"ETH-Remix/Practice/ownable.sol": {
+			"keccak256": "0x433847e7fa6b5e95c6f853a1e871dee46466ab40ae16aa11d73674271b05cab4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fb1beef68a98800f80d9af9b74d4e48ebffc4f25e0b78f723614c3e215e88ef3",
+				"dweb:/ipfs/QmQNAKRJ9YdnZGbdXpbHLYYDnXESz1TR9Nv1C1QTVjoGHc"
+			]
+		}
+	},
+	"version": 1
+}
