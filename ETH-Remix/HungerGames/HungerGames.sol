@@ -2,6 +2,9 @@ pragma solidity 0.8.13;
 //SPDX-License-Identifier: UNLICENSED
 
 import "./Ownable.sol";
+import "./TimeoftheGames.sol";
+
+
 
 contract HungerGames is Ownable {
     //state variables

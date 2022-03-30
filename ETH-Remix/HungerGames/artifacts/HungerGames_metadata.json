@@ -186,11 +186,11 @@
 	},
 	"sources": {
 		"ETH-Remix/HungerGames/HungerGames.sol": {
-			"keccak256": "0x9af9ccf8a180567eb53d7ca2153fc503de83ad61687871f03462436925f2b9ef",
+			"keccak256": "0xd203ab205674a4edef7f08f0d238c4bb5a540c0a8a7ab7c05d0b56fd8ff168cc",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://136eeabd5c5d091c54452b8f1cdf0fff18ec910be10ad7e99621c4973247cbf2",
-				"dweb:/ipfs/QmPZcRRkwYXJeByZFavj8HsuL5vHcKmsR63xhTAcBpJLhd"
+				"bzz-raw://f0109dc51e381e28ee7b33c1ea76262ab61a28311fe55a1e987023c294c513d8",
+				"dweb:/ipfs/Qmf6QqR9dkGK9zwfmBSJsena4Y6XWtmaP6y2U3i4XPGoMr"
 			]
 		},
 		"ETH-Remix/HungerGames/Ownable.sol": {
