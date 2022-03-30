@@ -9,25 +9,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_toAdd",
-						"type": "uint256"
-					}
-				],
-				"name": "addBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "_id",
 						"type": "uint256"
 					},
@@ -60,38 +41,6 @@
 				"name": "addPerson",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "number",
-						"type": "int256"
-					}
-				],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -224,11 +173,19 @@
 	},
 	"sources": {
 		"ETH-Remix/HungerGames/HungerGames.sol": {
-			"keccak256": "0x81017e2e8d0fdae4819c896a3d5ff969caeddf49d0ca8b96be06e8da9d278a56",
+			"keccak256": "0xd8bbfa348a85e405d1b06ba7b01bc21fa5f43c3fabb50499c2ec5f6028e3412f",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://ffbb84f4167dd20d3afe789cb1747dc1b1e9e268834dd762af0407ab937e57b6",
-				"dweb:/ipfs/QmcJNwuGtTn5428FhPMH51w2nxG2E3Nh9iQtPygdw2k8yg"
+				"bzz-raw://dc030e74adb7fa13ebf6f320921128d7742904a7cf51ea051329232691251e81",
+				"dweb:/ipfs/QmVi8A8fN1uFU1meskBStvjejAW5fNwVMtWCZGVsfVDH4u"
+			]
+		},
+		"ETH-Remix/HungerGames/Ownable.sol": {
+			"keccak256": "0x81c5c98d2ffb2c46e2dac532619707b3de971ea24358bfb3c95e754e9bf758eb",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://cd6c3ca9e44398ffe486f17f8f73b2878d08ae251ef971199ae03ccda05d8346",
+				"dweb:/ipfs/QmZDh8RUQhPN3CqipzMTwHzXSH8DpGbEHqRJq3Jg2bDW5P"
 			]
 		}
 	},

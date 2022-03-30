@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ETH-Remix/HungerGames/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ETH-Remix/HungerGames/Ownable.sol": {
+			"keccak256": "0x81c5c98d2ffb2c46e2dac532619707b3de971ea24358bfb3c95e754e9bf758eb",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://cd6c3ca9e44398ffe486f17f8f73b2878d08ae251ef971199ae03ccda05d8346",
+				"dweb:/ipfs/QmZDh8RUQhPN3CqipzMTwHzXSH8DpGbEHqRJq3Jg2bDW5P"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,11 +1,14 @@
 pragma solidity 0.8.13;
 //SPDX-License-Identifier: UNLICENSED
 
+import "./Ownable.sol";
+
 contract HungerGames {
     //state variables
-    uint256 public peopleCount = 0;
-    mapping(uint => Person) public people;
 
+    uint256 public peopleCount = 0;
+
+    mapping(uint => Person) public people;
     
     struct Person{
         uint _id;
@@ -16,7 +19,6 @@ contract HungerGames {
         uint _month;
         uint _investedmoney;
     }
-
 
     function addPerson(uint _id, uint _age, string memory _name, uint _weight, uint _month, uint _investedmoney)
      public {
@@ -35,21 +37,4 @@ contract HungerGames {
         
     }
   
-    function count (int number) public pure returns(int){
-        for(int i=0;i<10;i++){
-            number++;
-        }
-        return number;
-    }
-
-    mapping(address => uint) balance;
-
-    function addBalance(uint _toAdd) public returns (uint){
-        balance [msg.sender] += _toAdd;
-        return balance [msg.sender];
-    }
-
-    function getBalance() public view returns (uint){
-        return balance[msg.sender];
-    }
 }
