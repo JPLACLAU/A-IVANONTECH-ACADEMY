@@ -3,7 +3,7 @@ pragma solidity 0.8.13;
 
 import "./Ownable.sol";
 
-contract HungerGames {
+contract HungerGames is Ownable {
     //state variables
 
     uint256 public peopleCount = 0;
@@ -21,7 +21,7 @@ contract HungerGames {
     }
 
     function addPerson(uint _id, uint _age, string memory _name, uint _weight, uint _month, uint _investedmoney)
-     public {
+     public onlyOwner {
         incrementCount();
         people[peopleCount] = Person(_id , _age, _name, _weight, _month, _investedmoney);
     }
