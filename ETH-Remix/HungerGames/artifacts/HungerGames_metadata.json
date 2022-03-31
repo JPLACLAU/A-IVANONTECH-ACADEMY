@@ -186,11 +186,11 @@
 	},
 	"sources": {
 		"ETH-Remix/HungerGames/HungerGames.sol": {
-			"keccak256": "0xd203ab205674a4edef7f08f0d238c4bb5a540c0a8a7ab7c05d0b56fd8ff168cc",
+			"keccak256": "0x56b8b9c087f6697c5de8e36293a439216e5cc90e85c63f9fbbf95c1f3c31c208",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://f0109dc51e381e28ee7b33c1ea76262ab61a28311fe55a1e987023c294c513d8",
-				"dweb:/ipfs/Qmf6QqR9dkGK9zwfmBSJsena4Y6XWtmaP6y2U3i4XPGoMr"
+				"bzz-raw://17a08bbf6f7ea50f8196da709b7cec189927cd5f983239372a93ea62f98d3dd1",
+				"dweb:/ipfs/QmXwGtnaY5ySL6ac3EJBWsTgdGMsDY6NihqTxnCLJYz7p2"
 			]
 		},
 		"ETH-Remix/HungerGames/Ownable.sol": {
@@ -199,6 +199,14 @@
 			"urls": [
 				"bzz-raw://cd6c3ca9e44398ffe486f17f8f73b2878d08ae251ef971199ae03ccda05d8346",
 				"dweb:/ipfs/QmZDh8RUQhPN3CqipzMTwHzXSH8DpGbEHqRJq3Jg2bDW5P"
+			]
+		},
+		"ETH-Remix/HungerGames/TimeoftheGames.sol": {
+			"keccak256": "0x2cc6033544b3e57c42e5b17e61504a19b49e3a05b777c27ab20b526fd7ad60b9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://08ad17833e41656bb50487ea53c36ddc50d16144eca036cfa849902bc751f4f6",
+				"dweb:/ipfs/QmPGeNLLCE89F51g4r8bU2SKUbYnU9W7WMFQ4PwLivNyCK"
 			]
 		}
 	},

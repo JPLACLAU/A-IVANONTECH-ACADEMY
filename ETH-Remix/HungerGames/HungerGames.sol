@@ -4,7 +4,8 @@ pragma solidity 0.8.13;
 import "./Ownable.sol";
 import "./TimeoftheGames.sol";
 
-
+// This project is in dedication to my friend Marcelo who had the original idea this summer to lose weight
+// by placing a bet against yourself while competing with friends.
 
 contract HungerGames is Ownable {
     //state variables
@@ -17,8 +18,8 @@ contract HungerGames is Ownable {
         uint _id;
         uint _age;
         string _name;
-        uint _weight; //this value is in integer kilograms. 
-        //IF you weith 105,5 kilogramos, you round down to 105 kg. If you weight 105,6kg, round up to 106kg.
+        uint _weight; // This value is in plain kilograms without commas. If you weith 105,5 kilogramos,
+                      // round down to 105 kg. If you weight 105,6kg, round up to 106kg.
         uint _month;
         uint _investedmoney;
     }
