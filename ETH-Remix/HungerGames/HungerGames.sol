@@ -4,8 +4,9 @@ pragma solidity 0.8.13;
 import "./Ownable.sol";
 import "./TimeoftheGames.sol";
 
-// The HungerGames contract is a multisig contract with escrow properties. It is recomended to use with you friends 
-// and with small amounts of money, just for the lulz.
+// The HungerGames contract is a multisig contract with escrow properties. The balance of the contract is the winning prize
+// and it can only be withdrawed to the winner when the mayority of the contestants aproves it.
+// It is recomended to use with your friends and with small amounts of money, just for the lulz.
 
 // This project is in dedication to my friend Marcelo who had the original idea this summer to lose weight
 // by placing a bet against yourself while competing with friends.
@@ -21,7 +22,7 @@ contract HungerGames is Ownable, Timeable {
         uint _id;
         string _name;
         uint _weight; // This value is in plain kilograms without commas. If you weigth 105,5 kilogramos,
-                      // round down to 105 kg. If you weight 105,6kg, round up to 106kg.
+                      // round down to 105 kg. If you weight 105,51kg, round up to 106kg.
         uint _bet;
         address payable _receiver;
 
@@ -41,6 +42,19 @@ contract HungerGames is Ownable, Timeable {
         Person memory personToReturn = people[_index];
         return (personToReturn._id, personToReturn._name, personToReturn._weight, personToReturn._bet,
         personToReturn._receiver);   
+    }
+
+    mapping(address => uint) public deposits;
+
+    function depositBet(address winner) public payable {
+        uint amount = msg.value;
+        deposits[winner] = deposits[winner] + amount;
+    }
+
+    function collectPrize(address payable winner) public{
+        uint Prize = deposits[winner];
+        deposits[winner] = 0;
+        winner.transfer(Prize);
     }
   
 }

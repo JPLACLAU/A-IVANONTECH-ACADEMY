@@ -41,6 +41,51 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address payable",
+						"name": "winner",
+						"type": "address"
+					}
+				],
+				"name": "collectPrize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "winner",
+						"type": "address"
+					}
+				],
+				"name": "depositBet",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "deposits",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_index",
 						"type": "uint256"
@@ -171,11 +216,11 @@
 	},
 	"sources": {
 		"ETH-Remix/HungerGames/HungerGames.sol": {
-			"keccak256": "0x4dd1fc5b5b548267da92f82d60d0f4439e18f47d6f2be7477869a970cc44b4b2",
+			"keccak256": "0xf8371d8ea9642b4c0e3adfd365c74e9853d894142147ebd4e2fffee12c7caf7a",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://5a0671e95dcd230d43a0f5bb0ede6663a6fb14c910cb15a05c5d8f1a3d7c9dfa",
-				"dweb:/ipfs/QmbEDxJZBUBGHomNB8y8qvp8vxf1btkL6DjD91Fjw9e5Cq"
+				"bzz-raw://99ddd5faa213c8e44c69a60cca6b63787f310f7f9eb4c439316b9dd62cb689bb",
+				"dweb:/ipfs/QmePgJ8TCF3rQc4LjeueWmnTPpq2voMkYThSh217YnjBPb"
 			]
 		},
 		"ETH-Remix/HungerGames/Ownable.sol": {

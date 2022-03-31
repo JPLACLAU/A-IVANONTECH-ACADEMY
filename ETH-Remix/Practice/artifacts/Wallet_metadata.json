@@ -201,7 +201,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ETH-Remix/Practice/multisig wallet.sol": "Wallet"
+			"ETH-Remix/Practice/multisigexcercise.sol": "Wallet"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -215,11 +215,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"ETH-Remix/Practice/multisig wallet.sol": {
-			"keccak256": "0x9ad62f9e2340b3eccffa3e9ff268c2fc65c5d0a0af7519df56b1fc939dc3c1b3",
+		"ETH-Remix/Practice/multisigexcercise.sol": {
+			"keccak256": "0xa0485ec9ccf02c91da025ff4a028223f963b2d36ba52e22aa8c801c96a9e4960",
 			"urls": [
-				"bzz-raw://950a143c24ee107840154df0b1e0b2b02ec13950bcee23be3711888e8e5552ff",
-				"dweb:/ipfs/QmSk5fEcQ35D2aNyQecBNtvzH3EDNoYGRVDKQDfXwGnjyE"
+				"bzz-raw://a6972ca9f48b87dd887898b3ffa4c487bae5bd94635d23b839efc051962814dc",
+				"dweb:/ipfs/QmdxUnZwPFHfJjpdZxiKvL3YUTNrFovRV28nyLo1xfubbW"
 			]
 		}
 	},
