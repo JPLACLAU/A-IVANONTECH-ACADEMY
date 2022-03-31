@@ -13,11 +13,6 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					},
-					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
@@ -29,13 +24,13 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_month",
+						"name": "_bet",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_investedmoney",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_receiver",
+						"type": "address"
 					}
 				],
 				"name": "addPerson",
@@ -59,11 +54,6 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
@@ -79,9 +69,9 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
+						"internalType": "address payable",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -116,11 +106,6 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					},
-					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
@@ -132,13 +117,13 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_month",
+						"name": "_bet",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_investedmoney",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_receiver",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -186,11 +171,11 @@
 	},
 	"sources": {
 		"ETH-Remix/HungerGames/HungerGames.sol": {
-			"keccak256": "0x547fae2418806224ad1e00c188239ad850770fd33ffa6400da840a9e388c0fcb",
+			"keccak256": "0x4dd1fc5b5b548267da92f82d60d0f4439e18f47d6f2be7477869a970cc44b4b2",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://b7a67a3477249e4a278ef0119f08eb3ec848fcd4994253bf7f2ebc2f969f258e",
-				"dweb:/ipfs/Qmek4wb9oTUDPXue1xBy2fiWLCzephav8885ETU9Y2MLZR"
+				"bzz-raw://5a0671e95dcd230d43a0f5bb0ede6663a6fb14c910cb15a05c5d8f1a3d7c9dfa",
+				"dweb:/ipfs/QmbEDxJZBUBGHomNB8y8qvp8vxf1btkL6DjD91Fjw9e5Cq"
 			]
 		},
 		"ETH-Remix/HungerGames/Ownable.sol": {
@@ -202,11 +187,11 @@
 			]
 		},
 		"ETH-Remix/HungerGames/TimeoftheGames.sol": {
-			"keccak256": "0x2cc6033544b3e57c42e5b17e61504a19b49e3a05b777c27ab20b526fd7ad60b9",
+			"keccak256": "0x40482185ffb8ebc823faeeb8e3364fdbea40e36f8d648158dc5db3e145a64024",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://08ad17833e41656bb50487ea53c36ddc50d16144eca036cfa849902bc751f4f6",
-				"dweb:/ipfs/QmPGeNLLCE89F51g4r8bU2SKUbYnU9W7WMFQ4PwLivNyCK"
+				"bzz-raw://807cb59977fec63f995194dcf7a72e77da14a3aae56256dca342d573bdd335d9",
+				"dweb:/ipfs/QmVYrg6pDCDpqb3QzqWS3cBRAzK1aZbUHoLLWermakpZoQ"
 			]
 		}
 	},

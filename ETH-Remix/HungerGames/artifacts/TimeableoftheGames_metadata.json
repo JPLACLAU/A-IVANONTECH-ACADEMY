@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ETH-Remix/HungerGames/TimeoftheGames.sol": "TimeableoftheGames"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ETH-Remix/HungerGames/TimeoftheGames.sol": {
+			"keccak256": "0x8d796ec3f7004eec7a516a4f47a703dd8ea76441f5874f8cefa063bf8e28fce4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://7cdf141e1870a113b9d05cb3370fc8af7946113c35b2d4423c120c1e5ae7fcb3",
+				"dweb:/ipfs/QmP87KyFamtKZVNXvcLxP1seawtrNqsuCXvTtzngZYvFoQ"
+			]
+		}
+	},
+	"version": 1
+}

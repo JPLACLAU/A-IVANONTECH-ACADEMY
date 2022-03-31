@@ -10,7 +10,7 @@ import "./TimeoftheGames.sol";
 // This project is in dedication to my friend Marcelo who had the original idea this summer to lose weight
 // by placing a bet against yourself while competing with friends.
 
-contract HungerGames is Ownable {
+contract HungerGames is Ownable, Timeable {
     //state variables
 
     uint256 public peopleCount = 0;
@@ -19,29 +19,28 @@ contract HungerGames is Ownable {
     
     struct Person{
         uint _id;
-        uint _age;
         string _name;
         uint _weight; // This value is in plain kilograms without commas. If you weigth 105,5 kilogramos,
                       // round down to 105 kg. If you weight 105,6kg, round up to 106kg.
-        uint _month;
-        uint _investedmoney;
+        uint _bet;
+        address payable _receiver;
+
     }
 
-    function addPerson(uint _id, uint _age, string memory _name, uint _weight, uint _month, uint _investedmoney)
-     public onlyOwner {
+    function addPerson(uint _id, string memory _name, uint _weight, uint _bet, address payable _receiver)
+     public onlyOwner onlyWhileOpen {
         incrementCount();
-        people[peopleCount] = Person(_id , _age, _name, _weight, _month, _investedmoney);
+        people[peopleCount] = Person(_id , _name, _weight, _bet, _receiver);
     }
 
     function incrementCount() internal {
         peopleCount += 1;
     }
 
-    function getPerson(uint _index) public view returns (uint, uint, string memory, uint, uint, uint) {
+    function getPerson(uint _index) public view returns (uint, string memory, uint, uint, address payable) {
         Person memory personToReturn = people[_index];
-        return (personToReturn._id, personToReturn._age, personToReturn._name, personToReturn._weight, 
-        personToReturn._month, personToReturn._investedmoney);
-        
+        return (personToReturn._id, personToReturn._name, personToReturn._weight, personToReturn._bet,
+        personToReturn._receiver);   
     }
   
 }
