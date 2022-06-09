@@ -9,7 +9,7 @@ import "./TimeoftheGames.sol";
 // It is recomended to use with your friends and with small amounts of money, just for the lulz.
 
 // This project is in dedication to my friend Marcelo who had the original idea this summer to lose weight
-// by placing a bet against yourself while competing with friends.
+// by placing a bet against yourself while competing with friends...
 
 contract HungerGames is Ownable, Timeable {
     //state variables
