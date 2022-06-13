@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
+			"keccak256": "0x49f1b0dcc76065d3965624526f54edb1ab16a9b15f9047bb77dc22bc1bfa8016",
+			"urls": [
+				"bzz-raw://5b575a1f16a75f08f169ec3503f736727d7b2c8bd8272ebd835206da30ce8834",
+				"dweb:/ipfs/QmZmrdjmJwmzW5Z5CUHwFGosfwf5aedoz4qkU6r2CXEvYd"
+			]
+		}
+	},
+	"version": 1
+}
