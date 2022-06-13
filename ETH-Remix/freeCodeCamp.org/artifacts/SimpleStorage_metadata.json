@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,10 +47,11 @@
 	},
 	"sources": {
 		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
-			"keccak256": "0x49f1b0dcc76065d3965624526f54edb1ab16a9b15f9047bb77dc22bc1bfa8016",
+			"keccak256": "0xb02f0165139addd488730a7753c37a0fae9cd3c476771a8396226fec5c9e6746",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://5b575a1f16a75f08f169ec3503f736727d7b2c8bd8272ebd835206da30ce8834",
-				"dweb:/ipfs/QmZmrdjmJwmzW5Z5CUHwFGosfwf5aedoz4qkU6r2CXEvYd"
+				"bzz-raw://3f2a4180276cb8cd487362d0e0b4137fdc2dbd87796dd214093edd086f0da7d9",
+				"dweb:/ipfs/QmcHjg7TiZSopEB3sbucNzADeAqwP7kiwDr9RHk2eECz8V"
 			]
 		}
 	},
