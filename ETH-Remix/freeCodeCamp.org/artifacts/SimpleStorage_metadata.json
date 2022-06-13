@@ -19,6 +19,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
-			"keccak256": "0xc124d66770c54d23e5e386a008076d3f1935cfa2df1a1cc54215656f354d0391",
+			"keccak256": "0xf8313296ce329edf2e8a9a94ddee5e9736c9849206a2f14d49bd209c79f51488",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c401981313d9eea9a0d8b0a1d4348f3a9dab2bc37c9a1346a223ab9eb60dfd30",
-				"dweb:/ipfs/QmNSLsBGAxPGSPcfmYEYQREhgdAprj1tPokHPRBNaLv4Mq"
+				"bzz-raw://4fb546b71cd0d74fc14a50e11ef5225e07c31b5cdd86f8604f78a58a92f8afd2",
+				"dweb:/ipfs/QmTphhAP772Fu8FUPLVujngbC1TRrPsiEe6eoz6ohfdNYo"
 			]
 		}
 	},
