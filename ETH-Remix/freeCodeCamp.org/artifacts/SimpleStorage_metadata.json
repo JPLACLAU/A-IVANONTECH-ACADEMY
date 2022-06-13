@@ -1,10 +1,28 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.6.0+commit.26b70077"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
 			{
 				"inputs": [],
 				"name": "favoriteNumber",
@@ -13,6 +31,30 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -46,21 +88,17 @@
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -73,11 +111,10 @@
 	},
 	"sources": {
 		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
-			"keccak256": "0xf8313296ce329edf2e8a9a94ddee5e9736c9849206a2f14d49bd209c79f51488",
-			"license": "UNLICENSED",
+			"keccak256": "0x2d878316a9c52a769ffddd1e5767c3646ddc2f09f7d41ffff9afa8e1f412703e",
 			"urls": [
-				"bzz-raw://4fb546b71cd0d74fc14a50e11ef5225e07c31b5cdd86f8604f78a58a92f8afd2",
-				"dweb:/ipfs/QmTphhAP772Fu8FUPLVujngbC1TRrPsiEe6eoz6ohfdNYo"
+				"bzz-raw://9233858b431816919c132e7f10eb4da3165066b44ac7d27253554d3cb75880bb",
+				"dweb:/ipfs/QmTtpo2KyCvdakC7t9CbZH8aKRU5a7zfQFf3Mtv6XsdYxD"
 			]
 		}
 	},
