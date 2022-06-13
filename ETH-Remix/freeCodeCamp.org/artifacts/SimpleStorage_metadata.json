@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
-			"keccak256": "0xb02f0165139addd488730a7753c37a0fae9cd3c476771a8396226fec5c9e6746",
+			"keccak256": "0xc124d66770c54d23e5e386a008076d3f1935cfa2df1a1cc54215656f354d0391",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://3f2a4180276cb8cd487362d0e0b4137fdc2dbd87796dd214093edd086f0da7d9",
-				"dweb:/ipfs/QmcHjg7TiZSopEB3sbucNzADeAqwP7kiwDr9RHk2eECz8V"
+				"bzz-raw://c401981313d9eea9a0d8b0a1d4348f3a9dab2bc37c9a1346a223ab9eb60dfd30",
+				"dweb:/ipfs/QmNSLsBGAxPGSPcfmYEYQREhgdAprj1tPokHPRBNaLv4Mq"
 			]
 		}
 	},
