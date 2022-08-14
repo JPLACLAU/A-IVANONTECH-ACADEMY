@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.16+commit.07a7930e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -88,17 +88,21 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -111,10 +115,11 @@
 	},
 	"sources": {
 		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
-			"keccak256": "0x2d878316a9c52a769ffddd1e5767c3646ddc2f09f7d41ffff9afa8e1f412703e",
+			"keccak256": "0xb2eebc28902c5971f2704c7543855d18c9ed6cb71a8cb44b241143894f5a83e4",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://9233858b431816919c132e7f10eb4da3165066b44ac7d27253554d3cb75880bb",
-				"dweb:/ipfs/QmTtpo2KyCvdakC7t9CbZH8aKRU5a7zfQFf3Mtv6XsdYxD"
+				"bzz-raw://6b72437ae9b9117c75b475f26b8dddebe8931b6aff35f0657945f5571df9182a",
+				"dweb:/ipfs/QmbkUhbuMdMoYfow1S26yEy9RGPnhddLCV8kBFuTYmZ8nL"
 			]
 		}
 	},
