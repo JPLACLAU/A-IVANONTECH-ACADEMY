@@ -3,9 +3,8 @@ pragma solidity 0.8.16;
 //test4
 
 contract SimpleStorage {
+
     uint256 public favoriteNumber; // this wil get initialized to 0
-    bool favoriteBool;
-    bool favoriteBool2;
 
     struct People{
         uint256 favoriteNumber;
@@ -14,6 +13,7 @@ contract SimpleStorage {
 
     People[] public people;
 
+        mapping(string => uint256) public nameToFavoriteNumber;
 
     function store (uint256 _favoriteNumber) public{ 
         favoriteNumber = _favoriteNumber;
@@ -25,6 +25,7 @@ contract SimpleStorage {
 
     function addPerson(string memory _name, uint256 _favoriteNumber) public {
         people.push(People(_favoriteNumber, _name));
+        nameToFavoriteNumber[_name] = _favoriteNumber;
     }
   
 

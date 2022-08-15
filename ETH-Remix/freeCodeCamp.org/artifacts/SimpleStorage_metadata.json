@@ -39,6 +39,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -115,11 +134,11 @@
 	},
 	"sources": {
 		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
-			"keccak256": "0xb2eebc28902c5971f2704c7543855d18c9ed6cb71a8cb44b241143894f5a83e4",
+			"keccak256": "0xba467642684aa550b3cfc6c1673612397a08d0653a35e136ff6756dedc945fa5",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://6b72437ae9b9117c75b475f26b8dddebe8931b6aff35f0657945f5571df9182a",
-				"dweb:/ipfs/QmbkUhbuMdMoYfow1S26yEy9RGPnhddLCV8kBFuTYmZ8nL"
+				"bzz-raw://0a5e4e8daa4a2ed039a605672d7fd5735efb992c5251c36230506f5f4d0096be",
+				"dweb:/ipfs/Qmbepp94sYHSP2BSNSH6WpvE8GJdc8GjniL5p7oe9y3t7P"
 			]
 		}
 	},
