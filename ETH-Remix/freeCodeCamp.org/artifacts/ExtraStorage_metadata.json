@@ -119,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": "SimpleStorage"
+			"ETH-Remix/freeCodeCamp.org/ExtraStorage.sol": "ExtraStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -133,6 +133,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"ETH-Remix/freeCodeCamp.org/ExtraStorage.sol": {
+			"keccak256": "0x4d750f78ae858bfb98213d2b5fc6a24e91977fa1482cb2f94bf9b627f5e39db5",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a858cba1fe4c6458a3550589f433a3e951a7fa5f86c93eb65c56d47ba3b2349e",
+				"dweb:/ipfs/QmawhKydb8imX9PUZopQFizyZqZc8UtFYmK3UvEgBHLoQa"
+			]
+		},
 		"ETH-Remix/freeCodeCamp.org/SimpleStorage.sol": {
 			"keccak256": "0xea5182a562d8ca87ce671f26ba018aba637ed160f2063582e4d8d8142b8b5e81",
 			"license": "UNLICENSED",
