@@ -16,6 +16,43 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -68,11 +105,11 @@
 			]
 		},
 		"ETH-Remix/freeCodeCamp.org/StorageFactory.sol": {
-			"keccak256": "0x915465a4b4280fdb69ecdcd2df77cfd082d383e1c365d03239905c1e56ff7a29",
+			"keccak256": "0x38f8c4f69681e23c7bf790c418e7ca8ecb78fd8a8a914a14f74899ce44970b31",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://e15f3a6199676fc5ca94a7511bb0252fee0c5e9714513c598aed800bb448cb96",
-				"dweb:/ipfs/Qme2GSzfMsBjXDRM8VdAqQCpCmVSdcZGEgKU4T6jGDz4id"
+				"bzz-raw://6eb687c6c24027a60201b6d649f7619244669fbdec6ff19a2071a7f1f8fe1839",
+				"dweb:/ipfs/QmTELu5WmhNZcAbBr3ypSeGbaAM4dLbsUBzBT9Cv9CZAPi"
 			]
 		}
 	},
