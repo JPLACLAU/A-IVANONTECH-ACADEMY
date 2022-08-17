@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ETH-Remix/freeCodeCamp.org/Lesson 4/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ETH-Remix/freeCodeCamp.org/Lesson 4/FundMe.sol": {
+			"keccak256": "0x1f2949a8281febf78ff62b3a405bd673c19cadf0a15b323cc85d04b304f05229",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c2935dadc1cb25771c00705b4cb2af6d53e1000b6da3c4cc14e4d37411a7b1ce",
+				"dweb:/ipfs/QmYp7AGRtmUtnEdFwsf5tZVhbdwb41YV2GwY7kp5qUaMvU"
+			]
+		}
+	},
+	"version": 1
+}
