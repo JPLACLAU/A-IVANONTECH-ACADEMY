@@ -11,6 +11,33 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getConversionRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minimumUsd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -41,11 +68,11 @@
 	},
 	"sources": {
 		"ETH-Remix/freeCodeCamp.org/Lesson 4/FundMe.sol": {
-			"keccak256": "0x8e3ea11c468aec870e418891b8627c48447cd4d4b83587a259fccc7c9ae566ee",
+			"keccak256": "0xa20c5314659c20bba8e555dd80c2a2ff16347df64380b2877d51f1a31e16e00a",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://2a27d4ab745090257ccaeeefc49bc3d7bf059ccc5720fc8ce49b855bd7392462",
-				"dweb:/ipfs/QmYsvf51jsUGWgjRZkFoWYoMWHmsrGDR3TLZctv54zgBYq"
+				"bzz-raw://b70725af53f02a72d8eb6247002447600b2bba610e02591e07ad1e6bcb57fdac",
+				"dweb:/ipfs/QmeDrp1LVfLJzVdC86NmYbeTWqDyJo2T7skqnfHfuxY9sJ"
 			]
 		}
 	},
