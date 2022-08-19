@@ -13,17 +13,35 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
 				"name": "getConversionRate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
 				"name": "getPrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -76,11 +94,11 @@
 			]
 		},
 		"ETH-Remix/freeCodeCamp.org/Lesson 4/FundMe.sol": {
-			"keccak256": "0x188316f3972158f8fe71783f4c800d40adfd6465ec59394320b943d16e232a6f",
+			"keccak256": "0xb29c1d972500178a652bb2edbf1dc352c5811067580ad57de276756a7da3b37f",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://0a28c5b9730c75426ef8b9732e9fec837117c3815360e3271d1774cc9cd3c390",
-				"dweb:/ipfs/QmbqZHqBTcnaHnZM2VmCSxZuLKfLCqzmmSbNsGNZwsgQrB"
+				"bzz-raw://1262ed2326b4fff2e760dd2c37cdfdb39954a26280840e0af32e8c27a4693bf2",
+				"dweb:/ipfs/QmNV8aZuwP7QozfZp4zhV4nA1ogaJ8G9m9GyfkA5NAerrA"
 			]
 		}
 	},
