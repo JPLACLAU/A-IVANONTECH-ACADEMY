@@ -1,0 +1,67 @@
+{
+	"id": "526eb20e3722a869aef959459c8bf009",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.8",
+	"solcLongVersion": "0.8.8+commit.dddeac2f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol": {
+				"content": "pragma solidity 0.8.8;\r\n//SPDX-License-Identifier: UNLICENSED\r\n\r\n// library"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol": {
+				"ast": {
+					"absolutePath": "ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".8"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:22:0"
+						}
+					],
+					"src": "0:75:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

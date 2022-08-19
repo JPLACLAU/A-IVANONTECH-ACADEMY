@@ -1,0 +1,432 @@
+{
+	"id": "e7954b4374b0bbd26a836350264f20f9",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.8",
+	"solcLongVersion": "0.8.8+commit.dddeac2f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol": {
+				"content": "pragma solidity 0.8.8;\r\n//SPDX-License-Identifier: UNLICENSED\r\n\r\n// library\r\n\r\nlibrary PriceConverter {\r\n    \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol": {
+				"PriceConverter": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol\":79:112  library PriceConverter {... */\n  dataSize(sub_0)\n  dataOffset(sub_0)\n  0x0b\n  dup3\n  dup3\n  dup3\n  codecopy\n  dup1\n  mload\n  0x00\n  byte\n  0x73\n  eq\n  tag_1\n  jumpi\n  mstore(0x00, 0x4e487b7100000000000000000000000000000000000000000000000000000000)\n  mstore(0x04, 0x00)\n  revert(0x00, 0x24)\ntag_1:\n  mstore(0x00, address)\n  0x73\n  dup2\n  mstore8\n  dup3\n  dup2\n  return\nstop\n\nsub_0: assembly {\n        /* \"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol\":79:112  library PriceConverter {... */\n      eq(address, deployTimeAddress())\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa264697066735822122012077c2d81d9a40cf8aa93b544eb4786d33d07018c6e72ccc028572128af71f064736f6c63430008080033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122012077c2d81d9a40cf8aa93b544eb4786d33d07018c6e72ccc028572128af71f064736f6c63430008080033",
+							"opcodes": "PUSH1 0x56 PUSH1 0x50 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x43 JUMPI PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 MSTORE PUSH1 0x0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH1 0x0 REVERT JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLT SMOD PUSH29 0x2D81D9A40CF8AA93B544EB4786D33D07018C6E72CCC028572128AF71F0 PUSH5 0x736F6C6343 STOP ADDMOD ADDMOD STOP CALLER ",
+							"sourceMap": "79:33:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122012077c2d81d9a40cf8aa93b544eb4786d33d07018c6e72ccc028572128af71f064736f6c63430008080033",
+							"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLT SMOD PUSH29 0x2D81D9A40CF8AA93B544EB4786D33D07018C6E72CCC028572128AF71F0 PUSH5 0x736F6C6343 STOP ADDMOD ADDMOD STOP CALLER ",
+							"sourceMap": "79:33:0:-:0;;;;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "17200",
+								"executionCost": "97",
+								"totalCost": "17297"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "B"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "DUP3",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "DUP3",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "DUP3",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "MLOAD",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "BYTE",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "73"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "EQ",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "4E487B7100000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "4"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "24"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "ADDRESS",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "PUSH",
+									"source": 0,
+									"value": "73"
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "DUP2",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "MSTORE8",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "DUP3",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "DUP2",
+									"source": 0
+								},
+								{
+									"begin": 79,
+									"end": 112,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a264697066735822122012077c2d81d9a40cf8aa93b544eb4786d33d07018c6e72ccc028572128af71f064736f6c63430008080033",
+									".code": [
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "PUSHDEPLOYADDRESS",
+											"source": 0
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "ADDRESS",
+											"source": 0
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "EQ",
+											"source": 0
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 79,
+											"end": 112,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.8+commit.dddeac2f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol\":\"PriceConverter\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol\":{\"keccak256\":\"0xcba57f7b5b2aac9e8f966cc4fa138f85d1b1c9824cdce7a5b16a871b63378232\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://e77480ce425336200bc78c6b0bb9a7b597054593071f5bbe5b974d79397fe18d\",\"dweb:/ipfs/QmWjuoKiLbFEinQCRd8ZUZNWYkaBzeURJXx4q11R5ELHzm\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol": {
+				"ast": {
+					"absolutePath": "ETH-Remix/freeCodeCamp.org/Lesson 4/PriceConverter.sol",
+					"exportedSymbols": {
+						"PriceConverter": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".8"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:22:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "library",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "PriceConverter",
+							"nameLocation": "87:14:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "79:33:0",
+							"usedErrors": []
+						}
+					],
+					"src": "0:112:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
