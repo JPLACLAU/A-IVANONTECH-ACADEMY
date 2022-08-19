@@ -67,12 +67,20 @@
 		"remappings": []
 	},
 	"sources": {
+		"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x6e6e4b0835904509406b070ee173b5bc8f677c19421b76be38aea3b1b3d30846",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3beaa37ee61e4ab615e250fbf01601ae481de843fd0ef55e6b44fd9d5fff8a7",
+				"dweb:/ipfs/QmeZUVwd26LzK4Mfp8Zba5JbQNkZFfTzFu1A6FVMMZDg9c"
+			]
+		},
 		"ETH-Remix/freeCodeCamp.org/Lesson 4/FundMe.sol": {
-			"keccak256": "0xa20c5314659c20bba8e555dd80c2a2ff16347df64380b2877d51f1a31e16e00a",
+			"keccak256": "0x188316f3972158f8fe71783f4c800d40adfd6465ec59394320b943d16e232a6f",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://b70725af53f02a72d8eb6247002447600b2bba610e02591e07ad1e6bcb57fdac",
-				"dweb:/ipfs/QmeDrp1LVfLJzVdC86NmYbeTWqDyJo2T7skqnfHfuxY9sJ"
+				"bzz-raw://0a28c5b9730c75426ef8b9732e9fec837117c3815360e3271d1774cc9cd3c390",
+				"dweb:/ipfs/QmbqZHqBTcnaHnZM2VmCSxZuLKfLCqzmmSbNsGNZwsgQrB"
 			]
 		}
 	},

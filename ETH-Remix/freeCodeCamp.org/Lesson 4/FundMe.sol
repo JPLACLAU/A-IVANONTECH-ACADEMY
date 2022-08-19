@@ -1,6 +1,9 @@
 pragma solidity 0.8.8;
 //SPDX-License-Identifier: UNLICENSED
 
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+
+
 contract FundMe {
 
     uint256 public minimumUsd = 50;
