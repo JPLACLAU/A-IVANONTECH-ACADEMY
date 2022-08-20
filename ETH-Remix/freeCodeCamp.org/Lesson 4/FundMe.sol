@@ -14,7 +14,7 @@ contract FundMe {
     address public owner;
 
     constructor(){
-        ownser = msg.sender;
+        owner = msg.sender;
         //whoever deploys the contract
 
     }
@@ -32,7 +32,8 @@ contract FundMe {
 
     // function withdraw(){}
 
-    function withdraw () public {
+    function withdraw () public onlyOwner{
+        //require(msg.sender == owner, "Sender is not owner!"); // == this is to check equivalence
         // for loop, [1,2,3,4]
         //for (/* starting index, ending index, setp amount*/)
         for (uint256 funderIndex = 0; funderIndex > funders.length; funderIndex++){
@@ -54,11 +55,11 @@ contract FundMe {
         payable(msg.sender).call{value: address(this).balance}("");
         require(callSuccess, "Call failed");
 
+    }
 
-
-
-
-
+    modifier onlyOwner {
+        require(msg.sender == owner, "Sender is not owner!");
+        _;
     }
 
 
