@@ -30,7 +30,7 @@ contract FundMe {
 
     }
 
-    // function withdraw(){}
+    // function withdraw(){}.
 
     function withdraw () public onlyOwner{
         //require(msg.sender == owner, "Sender is not owner!"); // == this is to check equivalence
