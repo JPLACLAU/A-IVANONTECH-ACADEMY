@@ -1,6 +1,11 @@
-function main() {
-  console.log("hi");
-  let variable = 5;
-  console.log(variable);
+async function main() {
+
 }
-main();
+
+main() {
+  .then (() => ProcessingInstruction.exit(0))
+  .catch(error) => {
+    console.error(error);
+    ProcessingInstruction.exit(1);
+  });
+  
