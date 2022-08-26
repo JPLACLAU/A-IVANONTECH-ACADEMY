@@ -1,14 +1,12 @@
 const ethers = require("ethers");
 const fs = require("fs-extra");
-require("dotenv");
+require("dotenv").config();
 
 async function main() {
   // compile them in our code
   // compile them separately
   // http://127.0.0.1:7545
-  const provider = new ethers.providers.JsonRpcProvider(
-    "HTTP://127.0.0.1:7545"
-  );
+  const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
   // pasting private key here its a huge nono, but this is ganache
   const abi = fs.readFileSync("./SimpleStorage_sol_SimpleStorage.abi", "utf8");
