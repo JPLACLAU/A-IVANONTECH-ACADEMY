@@ -9,10 +9,8 @@ async function main() {
   const provider = new ethers.providers.JsonRpcProvider(
     "HTTP://127.0.0.1:7545"
   );
-  const wallet = new ethers.Wallet(
-    "1f66f9d1ae82ed037a228409beb489c51d73d28d988ceff604dccafa0a2da475",
-    provider
-  );
+
+  const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
   // pasting private key here its a huge nono, but this is ganache
   const abi = fs.readFileSync("./SimpleStorage_sol_SimpleStorage.abi", "utf8");
   const binary = fs.readFileSync(
