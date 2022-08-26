@@ -18,7 +18,7 @@ async function main() {
     "./SimpleStorage_sol_SimpleStorage.bin",
     "utf8"
   );
-  const contractFactory = new ethers.ConstractFactory(abi, binary, wallet);
+  const contractFactory = new ethers.ContractFactory(abi, binary, wallet);
   console.log("Deploying, please wait...");
   const contract = await contractFactory.deploy(); //stop here, wait contract to deploy
   console.log(contract);
