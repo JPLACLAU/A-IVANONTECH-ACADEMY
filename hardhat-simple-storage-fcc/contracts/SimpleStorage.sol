@@ -1,21 +1,21 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.7;
 
-//SPDX-License-Identifier: UNLICENSED
-//test4
-
 contract SimpleStorage {
-    uint256 public favoriteNumber; // this wil get initialized to 0
+    uint256 favoriteNumber;
 
     struct People {
         uint256 favoriteNumber;
         string name;
     }
 
+    // uint256[] public anArray;
     People[] public people;
 
     mapping(string => uint256) public nameToFavoriteNumber;
 
-    function store(uint256 _favoriteNumber) public virtual {
+    function store(uint256 _favoriteNumber) public {
         favoriteNumber = _favoriteNumber;
     }
 
