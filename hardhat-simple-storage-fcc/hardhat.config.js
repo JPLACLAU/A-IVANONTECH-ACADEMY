@@ -31,10 +31,11 @@ module.exports = {
         apiKey: ETHERSCAN_API_KEY,
     },
     gasReporter: {
-        enabled: true,
+        enabled: true, //False si lo quiero apagar
         outputFile: "gas-report.txt",
         noColors: true,
         currency: "USD",
         coinmarketcap: COINMARKETCAP_API_KEY,
+        token: "MATIC",
     },
 };
