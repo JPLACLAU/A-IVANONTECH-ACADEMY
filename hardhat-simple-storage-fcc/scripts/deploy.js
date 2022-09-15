@@ -1,7 +1,7 @@
-//imports
+// imports
 const { ethers, run, network } = require("hardhat");
 
-//async main
+// async main
 async function main() {
     const SimpleStorageFactory = await ethers.getContractFactory(
         "SimpleStorage"
@@ -10,25 +10,25 @@ async function main() {
     const simpleStorage = await SimpleStorageFactory.deploy();
     await simpleStorage.deployed();
     console.log(`Deployed contract to: ${simpleStorage.address}`);
-    console.log(network.config);
-    if (network.config.chainId === 5 && process.env.ETHERSCAN_API_KEY) {
-        console.log("Waiting for block txes...");
+    // what happens when we deploy to our hardhat network?
+    if (network.config.chainId === 4 && process.env.ETHERSCAN_API_KEY) {
+        console.log("Waiting for block confirmations...");
         await simpleStorage.deployTransaction.wait(6);
         await verify(simpleStorage.address, []);
-    } // == es igual a, ===
+    }
 
     const currentValue = await simpleStorage.retrieve();
     console.log(`Current Value is: ${currentValue}`);
 
-    // update current value
+    // Update the current value
     const transactionResponse = await simpleStorage.store(7);
     await transactionResponse.wait(1);
     const updatedValue = await simpleStorage.retrieve();
     console.log(`Updated Value is: ${updatedValue}`);
 }
-async function verify(contractAddress, args) {
-    //it works on etherscan, noto in all scanners
-    //we use hardhat plugins instead ot etherscan tutorial: hardhat-etherscan
+
+// async function verify(contractAddress, args) {
+const verify = async (contractAddress, args) => {
     console.log("Verifying contract...");
     try {
         await run("verify:verify", {
@@ -36,13 +36,13 @@ async function verify(contractAddress, args) {
             constructorArguments: args,
         });
     } catch (e) {
-        if (e.message.toLowercase().includes("already verified")) {
+        if (e.message.toLowerCase().includes("already verified")) {
             console.log("Already Verified!");
         } else {
             console.log(e);
         }
     }
-}
+};
 
 // main
 main()
